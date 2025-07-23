@@ -15,11 +15,11 @@ export class IntegrationService {
   private readonly STATUS_MAP = new Map<string, number>([
     ['A FAZER', 1],
     ['EM ANDAMENTO', 2],
-    ['"NoBurn" P/DEPLOY EM QA', 3],
+    ['P/DEPLOY EM QA', 3],
     ['TESTE QA', 3],
     ['VALIDAÇÃO', 4],
-    ["'NoBurn' VALIDADO", 4],
-    ["'NoBurn' CONCLUÍDO 🎉", 4],
+    ["VALIDADO", 4],
+    ["CONCLUÍDO 🎉", 4],
   ]);
 
   constructor(
